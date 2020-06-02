@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 // import Carousel, { Modal, ModalGateway } from 'react-images'
 import GalleryItem from './GalleryItem'
@@ -16,8 +16,9 @@ const Gallery = ({ media }) => {
   return (
     <div>
       {media && (<div className="row">
-        {media.map((obj, i) => {
+        {media.map((obj) => {
         return (<GalleryItem
+          key={obj.id}
           type={obj.type}
           id={obj.id}
           source={obj.source}
