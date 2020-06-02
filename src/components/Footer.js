@@ -4,11 +4,6 @@ const Footer = () => (
   <div id="footer">
     <div className="inner">
       <ul className="icons">
-        {/* <li>
-          <a href="#" className="icon fa-twitter">
-            <span className="label">Twitter</span>
-          </a>
-        </li> */}
         <li>
           <a href="https://github.com/dianakw8591" target="_blank" rel="noopener noreferrer" className="icon fa-github">
             <span className="label">Github</span>
@@ -24,16 +19,13 @@ const Footer = () => (
             <span className="label">Email</span>
           </a>
         </li>
-        {/* <li>
-        <i class="fab fa-dev"></i>
-        </li> */}
       </ul>
-      {/* <ul className="copyright">
-        <li>&copy; Gatsby Starter Strata</li>
+      <ul className="copyright">
+        <li>Design from &copy; Gatsby Starter Strata <a href="http://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a></li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+        Favicon by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </li>
-      </ul> */}
+      </ul>
     </div>
   </div>
 )

@@ -3,25 +3,6 @@ import PropTypes from 'prop-types'
 
 const GalleryItem = ({ id, source, url, caption, description, type }) => {
 
-  // const onClick = useCallback((e) => {
-  //     e.preventDefault()
-  //     toggleLightbox(position)
-  // }, [position, toggleLightbox]);
-
-  // 
-  {/* <a
-        className="image fit thumb"
-        href={source}
-        // onClick={onClick}
-        > */}
-  {/* <img src={thumbnail} /> */ }
-  {/* </a> */ }
-
-
-  {/* </article> */ }
-  // width="560" height="315"
-
-
   return (
     <article key={id} className="6u 12u$(xsmall) work-item">
       <div className='zoom image fit thumb'>
@@ -42,6 +23,7 @@ GalleryItem.propTypes = {
   source: PropTypes.string.isRequired,
   caption: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
 }
 
 export default GalleryItem
