@@ -5,18 +5,18 @@ const Footer = () => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="https://github.com/dianakw8591" target="_blank" rel="noopener noreferrer" className="icon fa-github">
-            <span className="label">Github</span>
+          <a href="https://github.com/dianakw8591" target="_blank" rel="noopener noreferrer" className="icon">
+          <i className="fab fa-github" title="Diana's Github Profile"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/diana-wendt/" target="_blank" rel="noopener noreferrer" className="icon fa-linkedin">
-            <span className="label">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/diana-wendt/" target="_blank" rel="noopener noreferrer" className="icon">
+          <i className="fab fa-linkedin" title="Diana's LinkedIn Profile"></i>
           </a>
         </li>
         <li>
-          <a href="https://dev.to/dianakw8591" target="_blank" rel="noopener noreferrer" className="icon fa-pencil-square">
-            <span className="label">Email</span>
+          <a href="https://dev.to/dianakw8591" target="_blank" rel="noopener noreferrer" className="icon">
+          <i className="fab fa-dev" title="Diana's DEV Profile"></i>
           </a>
         </li>
       </ul>
